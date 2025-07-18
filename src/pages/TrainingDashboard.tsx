@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Calendar, Users, Clock, Award, Filter, LayoutGrid, Timeline, ChevronRight, Play, Star, Quote } from 'lucide-react';
+import { Calendar, Users, Clock, Award, Filter, LayoutGrid, ChevronRight, Play, Star, Quote } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -532,7 +531,7 @@ const TrainingDashboard = () => {
               onClick={() => setViewMode('timeline')}
               className="flex items-center gap-2"
             >
-              <Timeline className="w-4 h-4" />
+              <Calendar className="w-4 h-4" />
               Timeline View
             </Button>
             <Button
